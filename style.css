@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding: 16;
+    
+}
+
+.galeria{
+    display: columns;
+    columns: 5;
+}
+
+.galeria img{
+    width: 100%;
+    padding-block: 4px;
+}
